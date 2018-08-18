@@ -1,13 +1,14 @@
 // Export the configurations for the webpack module.
 
 module.exports = {
+	mode: 'development',
 	entry: './src/index.js',
 	output: {
 		path: __dirname	+ '/public',
 		filename: 'bundle.js'
 	},
 	module: {
-		loaders: [
+		rules: [
 			{
 				test: /\.js$/,
 				loader: 'babel-loader'
