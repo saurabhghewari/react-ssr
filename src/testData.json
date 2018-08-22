@@ -1,0 +1,24 @@
+{
+  "contests" : [
+    {
+        "id" : 1,
+        "categoryName": "Business/Company",
+        "contestName" : "Conginitive Building Bricks"
+    },
+    {
+        "id" : 2,
+        "categoryName" : "Magzine/NewsLetter",
+        "contestName" : "Educating People about Success"
+    },
+    {
+        "id" : 3,
+        "categoryName" : "Software Company",
+        "contestName" : "Big Data Analysis"
+    },
+    {
+        "id" : 4,
+        "categoryName" : "Website",
+        "contestName" : "Free Programming Books"
+    }
+  ]
+}

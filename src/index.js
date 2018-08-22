@@ -11,9 +11,7 @@ import PropTypes from 'prop-types';
 // User Defined Components
 import App from "./components/App";
 
-const testData = require('./testData.json');
-
 ReactDOM.render(
-	<App contests={ testData.contests } />,
+	<App initialData = { window.initialData } />,
 	document.getElementById('root')
 )
